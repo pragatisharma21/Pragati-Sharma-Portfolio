@@ -1,0 +1,43 @@
+.radial-bg {
+  background: radial-gradient(
+    circle,
+    rgba(8, 12, 99, 1) 29%,
+    rgba(9, 17, 139, 1) 64%,
+    rgba(20, 37, 177, 1) 87%,
+    rgba(13, 31, 144, 1) 97%
+  );
+}
+
+.glow-blue {
+  text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}
+.glow-white {
+  text-shadow: 0 0px 40px #f807d8, 0 0 0px #ffffff, 0 0 10px #ffffff ;
+}
+.glow-pink {
+  text-shadow: 0 0 10px #ec4899, 0 0 20px #ec4899, 0 0 30px #ec4899;
+}
+
+.miniTitle {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+  }
+  
+  .miniTitle::before,
+  .miniTitle::after {
+    content: ""; 
+    flex: 1; 
+    height: 1px;
+    background: white; 
+  }
+  
+  .miniTitle::before {
+    margin-right: 10px;
+  }
+  
+  .miniTitle::after {
+    margin-left: 10px; 
+  }
+  
